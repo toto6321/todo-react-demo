@@ -1,0 +1,4 @@
+version 1.0.0
+functionalities:
+1. be able to save and show todo
+2. be able to delete a todo

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel='stylesheet'  href='./TodoInput.css'></style>
+    <title>React App</title>
+  </head>
+  <body>
+    <div id="root" style="text-align:center">
+      <form class='todoForm'>
+        <input type='text' class='todoInput' id="todoInput"/>
+        <button type='reset' class='button' id='resetButton'>RESET</button>
+        <button type="button" class='button' id='submitButton' onClick=addTodo()>SUBMIT</button>
+      </form>
+      <div class="todoListContainer">
+        <ul id='todoList'>
+          <script>
+              function addTodo(){
+                var todo = document.getElementById('todoInput').value;
+                var todoList = document.getElementById('todoList');
+                var li = document.createElement("li");
+                li.innerText = todo;
+                todoList.appendChild(li);
+              }
+          </script>
+        </ul>
+      </div>
+    </div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>

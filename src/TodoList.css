@@ -1,0 +1,6 @@
+ul#todoList{
+  margin: auto;
+  padding-left: 0.5%;
+  list-style-type: none;
+  text-align: left;
+}

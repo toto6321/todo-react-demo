@@ -1,0 +1,29 @@
+form.todoForm {
+  margin:10% auto 0 auto;
+  text-align: center;
+  /*left:50%;*/
+  width: 80%;
+}
+
+input.todoInput{
+  width: 60%;
+  height: 100%;
+}
+
+button.button {
+  font-size:60%;
+  height: 100%;
+}
+
+div.todoListContainer{
+  margin:0 auto;
+  width:80%;
+}
+
+ul#todoList{
+  margin: auto;
+  padding-left: 14%;
+  list-style-type: none;
+  text-align: left;
+  /*display:none;*/
+}

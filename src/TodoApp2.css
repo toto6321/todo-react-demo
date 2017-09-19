@@ -1,0 +1,59 @@
+div#root{
+  align-content: center;
+}
+
+div#container {
+  margin:10% auto 0 auto;
+  text-align: center;
+  /*left:50%;*/
+  width: 80%;
+}
+div#inputGroup{
+  align-content: center;
+  padding: 0
+}
+input#todoInput{
+  width: 60%;
+  height: 100%;
+  font-size: 120%;
+  padding-left: 1%;
+}
+
+button#addTodoButton {
+  margin:0 0 0 1%;
+  width: 8%;
+  padding: 0;
+  font-size:100%;
+  background-color: #abf;
+}
+
+div#todoListContainer{
+  margin:auto;
+}
+
+ul#todoList{
+  width:71%;
+  padding-left: -12%;
+  list-style-type: none;
+  text-align: left;
+  /*display:none;*/
+}
+
+li.todo{
+  position: relative;
+  margin: 0.1%;
+  padding: 1%;
+  background-color: #ddd;
+  width: 84%;
+}
+li#todo span{
+  width:100%;
+}
+
+button.operations{
+  position: absolute;
+  right: 1%;
+  border-style:ridge;
+  /*background-color:transparents;*/
+  font-size:80%;
+}

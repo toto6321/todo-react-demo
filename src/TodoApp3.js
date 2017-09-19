@@ -21,10 +21,8 @@ class TodoApp2 extends React.Component{
   keyDown(event){
     var ENTER_KEY = 13;
     if(event.which === ENTER_KEY){
-      this.saveTodo(event);
-      this.addTodo();
+      this.setState({content:event.target.value});
     }
-
   }
 
   addTodo(){

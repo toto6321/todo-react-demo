@@ -23,9 +23,9 @@ class TodoInput extends React.Component{
 
   render(){
     return (
-      <div>
-          <input type='text' class='todoInput' onChange={this.show}/>
-          <button type="submit" class='button' id='submitButton' onClick={this.saveTodo}>SUBMIT</button>
+      <div id="inputGroup">
+        <input type='text' id='todoInput' placeholder='what is going to do?' onChange={this.saveTodo} onMouseLeave={this.saveTodo} onBlur={this.saveTodo} onKeyDown={this.keyDown}/>
+        <button type="button" id='addTodoButton'  onClick={this.addTodo}>ADD</button>
       </div>
     );
   }
